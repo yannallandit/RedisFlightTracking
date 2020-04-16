@@ -43,8 +43,8 @@ The aircraft database is initially provided in a csv format. You might have to "
 
 5 Check if the data are available:
 
-`# 127.0.0.1:6379> hget a9dfd8 engines
+'# 127.0.0.1:6379> hget a9dfd8 engines
 
-`# "CONT MOTOR O-470 SERIES"
+'# "CONT MOTOR O-470 SERIES"
 
 
