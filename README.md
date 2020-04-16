@@ -29,7 +29,7 @@ The aircraft database is initially provided in a csv format. You might have to "
 
 2 Start the redisft container:
 
-`# docker run --name redisft  -p 6379:6379 -d redisft`
+`# docker run --name redisft  -p 6379:6379 -d yallandit/redisft`
 
 3 Check it is up and running
 
