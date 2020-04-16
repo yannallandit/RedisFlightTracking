@@ -24,25 +24,25 @@ The aircraft database is initially provided in a csv format. You might have to "
 
 7 You are ready to use the Redis container with your own data.
 
-## Usage
-1 Start the redisft container:
+## How to use the existing container
+1 An existing container is stored in docker.io: https://hub.docker.com/repository/docker/yallandit/redisft
+
+2 Start the redisft container:
 
 `# docker run --name redisft  -p 6379:6379 -d redisft
 
-2 Check it is up and running
+3 Check it is up and running
 
 `# docker ps
 
-3 Get connected to your redis DB:
+4 Get connected to your redis DB:
 
 `# docker exec -ti redisft bash
 `# [root@f4c4af1329ff data]# redis-cli
 
-4 Check if the data are available:
+5 Check if the data are available:
 
 `# 127.0.0.1:6379> hget a9dfd8 engines
 `# "CONT MOTOR O-470 SERIES"
 
-## Extra
-An existing Docker image is already available in https://hub.docker.com/repository/docker/yallandit/redisft
 
