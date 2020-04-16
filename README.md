@@ -38,11 +38,13 @@ The aircraft database is initially provided in a csv format. You might have to "
 4 Get connected to your redis DB:
 
 `# docker exec -ti redisft bash
+
 `# [root@f4c4af1329ff data]# redis-cli
 
 5 Check if the data are available:
 
 `# 127.0.0.1:6379> hget a9dfd8 engines
+
 `# "CONT MOTOR O-470 SERIES"
 
 
